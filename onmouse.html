@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+        <marquee behavior="scoll" onmouseover="this.stop();" onmouseOUT="this.start();">
+<h1 id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()">Mouse over me</h1>
+<script>
+function mouseOver() {
+    document.getElementById("demo").innerHTML = "Hello JavaScript!";
+}
+function mouseOut() {
+    document.getElementById("demo").innerHTML = "Mouse over me";
+}
+</script>
+</marquee>
+
+</body>
+</html>
