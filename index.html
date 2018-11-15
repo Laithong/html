@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: phetsarath ot;
+    padding: 10px;
+    background: #f1f1f1;
+}
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+.fakeimg {   
+    width: 100%;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+ <img src="h.png">
+</div>
+
+<div class="topnav">
+  <a href="#">ເສື່ອຍອດຮຶດ</a>
+  <a href="#">ມາໃຫມ່</a>
+  <a href="#">ລາຄາສູງ</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>ສາຂາໜື່ງ</h2>
+      <h5>ເປີດຮ້ານ 7:00-18:00</h5>
+      <div class="fakeimg" style="height:600px;">
+        <img src="nalan.jpg">
+    </div>
+    <p>ຂໍ້ມູນເພີມເຕີມ..</p>
+    <p>ຮ້ານຂອງເຮົາ ໃດ້ໃຫ້ບໍລຶການຂາຍເຄືງນຸງປະເພດຕ່າງ ແລະ ທີ່ສຳຄັນເຮົາໄດ້ມີທັງໜ້າຮ້ານ ແລະ ຂາຍແບບ ອ່ອນໄລ.</p>
+    </div>
+    <div class="card">
+        <h2>ສາຂາສອງ</h2>
+        <h5>ເປີດຮ້ານ 7:00-18:00</h5>
+      <div class="fakeimg" style="height:600px;">
+        <img src="nalan2.jpg">
+    </div>
+    <p>ຂໍ້ມູນເພີມເຕີມ..</p>
+    <p>ຮ້ານຂອງເຮົາ ໃດ້ໃຫ້ບໍລຶການຂາຍເຄືງນຸງປະເພດຕ່າງ ແລະ ທີ່ສຳຄັນເຮົາໄດ້ມີທັງໜ້າຮ້ານ ແລະ ຂາຍແບບ ອ່ອນໄລ.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+     <h2>ເຄື່ອງທີ່ຂາຍດີ</h2>
+      <div class="fakeimg"  >
+        <img src="sue.jpg">
+    </div>
+    <p>ລາຕາ 50.000 ກີບ</p>
+    </div>
+    <div class="card">
+    <h3>ດີຊາຍງາມ</h3>
+      <img src="sue2.jpg">
+    </div>
+    <div class="card">
+    <h3>ສວນຫຼຸດ</h3>
+    <p>30%</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+ <p> | ຜູ້ສ້າງ  |</p>
+ <p> | ຂໍ້ມູນຕຶດຕໍ່  |</p>
+ <p> | ຄວາມເປັນມາຂອງເວບ | </p>
+</div>
+
+</body>
+</html>
